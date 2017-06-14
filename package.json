@@ -1,14 +1,14 @@
 {
   "name": "one-dark-syntax",
   "theme": "syntax",
-  "version": "1.7.1",
+  "version": "1.7.1-beta.1",
   "description": "A dark syntax theme",
   "keywords": [
     "dark",
     "blue",
     "syntax"
   ],
-  "repository": "https://github.com/atom/one-dark-syntax",
+  "repository": "https://github.com/TheraPackages/one-dark-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

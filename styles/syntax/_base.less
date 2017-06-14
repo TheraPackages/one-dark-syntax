@@ -112,6 +112,7 @@
 }
 
 .syntax--punctuation {
+  color: @syntax-color-tag-punctuation;
   &.syntax--definition {
     &.syntax--comment {
       color: @mono-3;
@@ -139,6 +140,14 @@
     &.syntax--italic {
       color: @hue-3;
       font-style: italic;
+    }
+
+    &.syntax--weextemplate {
+      color: @syntax-color-weextemplate-punctuation;
+    }
+
+    &.syntax--string {
+      color: @syntax-color-string-punctuation;
     }
   }
 
@@ -188,7 +197,7 @@
   }
 
   &.syntax--name.syntax--tag {
-    color: @hue-5;
+    color: @syntax-color-tag-name;
   }
 
   &.syntax--other.syntax--attribute-name {
