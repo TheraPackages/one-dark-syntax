@@ -95,7 +95,7 @@
 }
 
 .syntax--string {
-  color: @hue-4;
+  color: @syntax-color-string;
 
 
   &.syntax--regexp {
@@ -109,6 +109,10 @@
   &.syntax--other.syntax--link {
     color: @hue-5;
   }
+}
+
+.syntax--source.syntax--js.syntax--embedded {
+  color: @syntax-color-js-pain-text;
 }
 
 .syntax--punctuation {
@@ -247,7 +251,7 @@
   }
 
   &.syntax--tag {
-    color: @mono-1;
+    color: @syntax-color-op-symbol;
   }
 }
 
